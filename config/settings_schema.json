@@ -7,4 +7,32 @@
     "theme_documentation_url": "https://www.heyfong.com",
     "theme_support_url": "https://www.heyfong.com",
   },
+
+  {
+    "name": "主题模式",
+    "settings": [
+      {
+        "label": "启动主题模式",
+        "type": "checkbox",
+        "id": "a02",
+        "default": true
+      },
+      {
+        "label": "选择模式",
+        "type": "select",
+        "id": "a01",
+      
+        "options":[
+          {
+            "value": "auto",
+            "label": "使用设备设置"
+          },
+           {
+            "value": "switch",
+            "label": "允许手动切换"
+          }
+        ]
+      }
+    ]
+  }
 ]
